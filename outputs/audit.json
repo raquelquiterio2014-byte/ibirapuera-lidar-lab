@@ -1,0 +1,90 @@
+{
+  "project": "Ibirapuera LiDAR Lab",
+  "version": "1.0.0",
+  "generated_utc": "2026-11-05T23:54:26.875511+00:00",
+  "source_url": "https://laz-m3dc-pmsp.s3.sa-east-1.amazonaws.com/MDS_color_3316-132.laz",
+  "input_file": "MDS_color_3316-132.laz",
+  "bytes": 30863737,
+  "sha256": "7b120a618dd8ced4b124d2111511ba8294f6c5307d24ba3364e84d1309017ad6",
+  "header": {
+    "version": "1.0",
+    "point_format": 3,
+    "point_count": 4987651,
+    "scales": [
+      0.01,
+      0.01,
+      0.01
+    ],
+    "bounds_min": [
+      330453.39,
+      7390340.5600000005,
+      743.16
+    ],
+    "bounds_max": [
+      330995.65,
+      7390927.48,
+      797.6800000000001
+    ],
+    "embedded_crs": null
+  },
+  "working_crs": "EPSG:31983",
+  "crs_basis": "External OpenTopography tile index; not embedded in inspected AWS file",
+  "acquisition": "2017 collection; exact tile acquisition date unverified",
+  "vertical_reference": "Unresolved; do not label Z as orthometric or ellipsoidal height",
+  "roi": {
+    "bounds": [
+      330750.0,
+      7390400.0,
+      330950.0,
+      7390600.0
+    ],
+    "boundary_rule": "min inclusive, max exclusive",
+    "area_m2": 40000,
+    "point_count": 665333,
+    "density_all_returns_per_m2": 16.633325,
+    "bounds_min": [
+      330750.0,
+      7390400.0,
+      743.74
+    ],
+    "bounds_max": [
+      330949.99,
+      7390599.99,
+      787.45
+    ]
+  },
+  "tile_classes": {
+    "2": 325970,
+    "5": 2125051,
+    "6": 565019,
+    "9": 1313,
+    "19": 135642,
+    "20": 1834656
+  },
+  "roi_classes": {
+    "2": 44634,
+    "5": 286433,
+    "6": 148825,
+    "19": 12880,
+    "20": 172561
+  },
+  "coverage": {
+    "cell_size_m": 5,
+    "cells": 1600,
+    "occupied_cells": 1600,
+    "empty_cells": 0,
+    "ground_supported_cells": 1235,
+    "note": "An occupied 5 m cell does not prove complete coverage or accuracy."
+  },
+  "preview": {
+    "points": 100000,
+    "seed": 42,
+    "method": "uniform random priority reservoir"
+  },
+  "limitations": [
+    "Historical educational study; no field validation.",
+    "Codes 19 and 20 remain unresolved; no modern ASPRS meaning assumed.",
+    "Point density is not spatial resolution or positional accuracy.",
+    "No terrain interpolation, tree inventory or change detection in V1."
+  ]
+}
